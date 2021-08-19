@@ -20,7 +20,7 @@
     border-radius: 5px;
   }
 
-  @each $theme, $color in $color-themes {
+  @each $theme, $color in $theme-colors {
       .theme.col-#{$theme} {
           background-color: $color;
       }

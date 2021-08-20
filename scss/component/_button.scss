@@ -10,24 +10,26 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    
   }
+
   
   .default {
-    background-color: $color-default;
+    @include background($color-default)
   }
   
   .error {
-    background-color: $color-error;
+    @include background($color-error)
   }
   
   .info {
-    background-color: $color-info;
+    @include background($color-info)
   }
   
   .success {
-    background-color: $color-success;
+    @include background($color-success)
   }
   
   .warning {
-    background-color: $color-warning;
+    @include background($color-warning)
   }

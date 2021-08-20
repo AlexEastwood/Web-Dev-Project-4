@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 1400px;
     display: block;
